@@ -14,6 +14,10 @@ public class Main {
         System.out.println("Popped value: " + stackArrays.pop());
         System.out.println("Peeked value: " + stackArrays.peek());
 
+        stackArrays.deleteStack();
+
+        System.out.println("Is stack empty after deletion? " + stackArrays.isEmpty());
+
         String word = "racecar";
         System.out.println(word + " is a palindrome: " + isPalindrome(word));
 
